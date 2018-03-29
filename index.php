@@ -9,9 +9,9 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="web/libs/font-awesome/css/font-awesome.min.css">
-    <link href="web/css/bootstrap.min.css" rel="stylesheet">
-    <link href="web/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="web/libs/font-awesome/css/font-awesome.min.css">
+    <link href="web/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="web/css/styles.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
