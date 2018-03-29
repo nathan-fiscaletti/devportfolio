@@ -658,8 +658,11 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    /*margin-left: 300px;*/
+    margin: 0;
     padding: 15px;
+    width: 600px;
+    left: 300px;
 
     h3 {
         font-size: 1.5em;
@@ -678,9 +681,10 @@ footer {
 .no-image {
     .project-info {
         position: relative;
-        margin: 0;
         padding: 30px 15px;
         transform: none;
+        left: 0px;
+        width: auto;
     }
 }
 
@@ -906,7 +910,7 @@ footer {
 }
 
 // Small Devices
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 991px) {
 
     header {
         position: fixed;
@@ -968,6 +972,8 @@ footer {
         padding: 30px 15px;
         top: auto;
         transform: none;
+        left: 0;
+        width: auto;
     }
 
     footer {
