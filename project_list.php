@@ -11,16 +11,16 @@ if ( basename(__FILE__) == basename($_SERVER["SCRIPT_FILENAME"]) ) {
             'image' => 'images/SynfulLogo.jpg',
         ],
         1 => [
-            'name' => 'Extended Arrays',
-            'description' => 'A PHP library offering improved array management.',
-            'http' => 'http://git.nathanf.tk/extended-arrays',
-            'image' => 'images/ExtendedArrayLogo.jpg',
-        ],
-        2 => [
             'name' => 'JTwoD',
             'description' => 'A 2D Java game engine written on top of AWT.',
             'http' => 'http://git.nathanf.tk/jtwod',
             'image' => 'images/JtwoDLogo.jpg',
+        ],
+        2 => [
+            'name' => 'Extended Arrays',
+            'description' => 'A PHP library offering improved array management.',
+            'http' => 'http://git.nathanf.tk/extended-arrays',
+            'image' => 'images/ExtendedArrayLogo.jpg',
         ],
         3 => [
             'name' => 'Parameter-Parser',
