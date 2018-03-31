@@ -234,7 +234,7 @@
                 }
 
                 ?>
-                <a onclick='document.getElementById("hidden-projects").style.display = "none";document.getElementById("show-more-projects").style.display = "block";'>Hide</a>
+                <a onclick='document.getElementById("hidden-projects").style.display = "none";document.getElementById("show-more-projects").style.display = "block";document.getElementById("projects").scrollIntoView();'>Hide</a>
                 </span>
             </div>
         </div>
