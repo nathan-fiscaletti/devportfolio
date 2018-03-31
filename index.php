@@ -44,6 +44,9 @@
             <li>
                 <a href="#contact">Contact</a>
             </li>
+            <li>
+                <a href='https://git.nathanf.tk/' target="_blank">Github</a>
+            </li>
         </ul>
     </header>
     <!-- End header -->
