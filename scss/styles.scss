@@ -876,7 +876,7 @@ footer {
 
         // This makes the image round.
         border-radius: $pi_medium;
-        
+
         // Spacing between image and name
         margin-bottom: 15px;
     }    
@@ -989,6 +989,17 @@ footer {
         }
     }
 
+    #personal-image {
+        width: $pi_medium;
+        height: $pi_medium;
+
+        // This makes the image round.
+        border-radius: $pi_medium;
+        
+        // Spacing between image and name
+        margin-bottom: 15px;
+    }
+
     #lead-down {
         display: none;
     }
@@ -1039,6 +1050,17 @@ footer {
             font-size: 0.9em;
             padding: 5px 10px;
         }
+    }
+
+    #personal-image {
+        width: $pi_medium;
+        height: $pi_medium;
+
+        // This makes the image round.
+        border-radius: $pi_medium;
+        
+        // Spacing between image and name
+        margin-bottom: 15px;
     }
 
 }
