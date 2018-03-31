@@ -165,17 +165,25 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                <?php  
+
+                $projects = include_once 'project_list.php';
+
+                $first_project = $projects[0];
+                $second_project = $projects[1];
+
+                ?>
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/SynfulLogo.jpg" width="300" height="300" />
+                        <img src="<?php echo $first_project['image']; ?>" width="300" height="300" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Synful</h3>
+                        <h3><?php echo $first_project['name']; ?></h3>
                         <p>
-                            A versatile PHP framework for you to create your own API with ease.
+                            <?php echo $first_project['description']; ?>
                         </p>
-                        <a href="https://git.nathanf.tk/synful/wiki" target="_blank">View Project</a>
+                        <a href="<?php echo $first_project['http']; ?>" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -183,67 +191,51 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/ParameterParserLogo.png" width="300" height="300" />
+                        <img src="<?php echo $second_project['image']; ?>" width="300" height="300" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Parameter-Parser</h3>
+                        <h3><?php echo $second_project['name']; ?></h3>
                         <p>
-                            A PHP library for parsing command line parameters.
+                            <?php echo $second_project['description']; ?>
                         </p>
-                        <a href="http://git.nathanf.tk/parameterparser" target="_blank">View Project</a>
+                        <a href="<?php echo $second_project['http']; ?>" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/ExtendedArrayLogo.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Extended Arrays</h3>
-                        <p>
-                            A PHP library for better array management.
-                        </p>
-                        <a href="http://git.nathanf.tk/extended-arrays" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                <span id='show-more-projects'>
+                    <a onclick='document.getElementById("hidden-projects").style.display = "block";document.getElementById("show-more-projects").style.display = "none";'>Show More</a>
+                </span> 
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/JtwoDLogo.jpg" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>JTwoD</h3>
-                        <p>
-                            A 2D Java game engine written on top of AWT.
-                        </p>
-                        <a href="http://git.nathanf.tk/jtwod" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                <span id='hidden-projects' style='display: none;'>
+                <?php
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/FreeGeoIpPhpLogo.jpg" width="300" height="300" />
+                for ($i=2;$i<count($projects);$i++) {
+                    $project = $projects[$i];
+                    ?>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="<?php echo $project['image']; ?>" width="300" height="300" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3><?php echo $project['name']; ?></h3>
+                            <p>
+                                <?php echo $project['description']; ?>
+                            </p>
+                            <a href="<?php echo $project['http']; ?>" target="_blank">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>FreeGeoIp for PHP</h3>
-                        <p>
-                            FreeGeoIp for PHP is a simple library used to interface with any freegeoip API.
-                        </p>
-                        <a href="http://git.nathanf.tk/freegeoip-php" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                    <!-- End .project -->
+                    <?php
+                }
+
+                ?>
+                <a onclick='document.getElementById("hidden-projects").style.display = "none";document.getElementById("show-more-projects").style.display = "block";'>Hide</a>
+                </span>
             </div>
         </div>
     </div>
