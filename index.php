@@ -50,10 +50,10 @@
 
     <div id="lead">
         <div id="lead-content">
-            <img src='./images/me.jpg' style='width: 256px;height: 256px;border-radius: 256px;margin-bottom: 100px;'/>
+            <img src='./images/me.jpg' id='personal-image'/>
             <h1>Nathan Fiscaletti</h1>
             <h2>Software Engineer</h2>
-            <a href="./downloads/Nathan-Fiscaleti-Resume-10.25.17.pdf" download="Nathan-Fiscaleti-Resume-10.25.17.pdf" class="btn-rounded-white" style='margin-top: 75px;'>Download Resume</a>
+            <a href="./downloads/Nathan-Fiscaleti-Resume-10.25.17.pdf" download="Nathan-Fiscaleti-Resume-10.25.17.pdf" class="btn-rounded-white" >Download Resume</a>
         </div>
         <!-- End #lead-content -->
 

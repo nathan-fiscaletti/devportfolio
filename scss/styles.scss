@@ -48,6 +48,12 @@ $border: #dcd9d9;
 $heading: #374054;
 $text: #74808a;
 
+// Personal image
+$pi_normal: 256px;
+$pi_medium: 128px;
+$pi_small: 64px;
+
+
 /*
     ---------------------
     ----- 2. Mixins -----
@@ -841,9 +847,40 @@ footer {
 
 /*
     -----------------------------
-    ----- 12. Media Queries -----
+    ---- 12. Personal Image -----
+    -----------------------------
+ */
+
+#personal-image {
+    width: $pi_normal;
+    height: $pi_normal;
+
+    // This makes the image round.
+    border-radius: $pi_normal;
+
+    // Spacing between image and name
+    margin-bottom: 15px;
+}
+
+/*
+    -----------------------------
+    ----- 13. Media Queries -----
     -----------------------------
 */
+
+// Control personal image
+@media only screen and (max-height: 616px) {
+    #personal-image {
+        width: $pi_medium;
+        height: $pi_medium;
+
+        // This makes the image round.
+        border-radius: $pi_medium;
+        
+        // Spacing between image and name
+        margin-bottom: 15px;
+    }    
+}
 
 // Collapse timeline
 @media only screen and (max-width: 750px) {
