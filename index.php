@@ -45,10 +45,10 @@
                 <a href="#contact">Contact</a>
             </li>
             <li>
-                <a href="http://git.nathanf.tk/" target="_blank"><i class="fa fa-github" aria-hidden="true" style='font-size: 1.2em'></i></a>
+                <a href="http://git.nathanf.tk/" target="_blank" class='no-scroll'><i class="fa fa-github" aria-hidden="true" style='font-size: 1.2em'></i></a>
             </li>
             <li>
-                <a href="http://www.linkedin.com/in/nathan-fiscaletti/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style='font-size: 1.2em'></i></a>
+                <a href="http://www.linkedin.com/in/nathan-fiscaletti/" target="_blank" class='no-scroll'><i class="fa fa-linkedin-square" aria-hidden="true" style='font-size: 1.2em'></i></a>
             </li>
         </ul>
     </header>
