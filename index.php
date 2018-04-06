@@ -104,7 +104,7 @@
                     <ul>
                         <li>Engineered software relevant to VPN technologies applicable to IOT.</li>
                         <li>Engineered solutions for a global backbone infrastructure.</li>
-                        <li>Primary developer for iOS, Android, .NET, and OSX.</li>
+                        <li>Primary developer for iOS, OSX, Android, .NET  and PHP.</li>
                     </ul>
                 </p>
             </div>
