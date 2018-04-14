@@ -51,7 +51,7 @@
                 <a href="http://www.linkedin.com/in/nathan-fiscaletti/" target="_blank" class='no-scroll'><i class="fa fa-linkedin-square" aria-hidden="true" style='font-size: 1.2em'></i></a>
             </li>
             <li>
-                <a href="https://paypal.me/mrfisc" target="_blank" class='no-scroll'><i class="fa fa-paypal-square" aria-hidden="true" style='font-size: 1.2em'></i></a>
+                <a href="https://paypal.me/mrfisc" target="_blank" class='no-scroll'><i class="fa fa-paypal" aria-hidden="true" style='font-size: 1.2em'></i></a>
             </li>
         </ul>
     </header>
