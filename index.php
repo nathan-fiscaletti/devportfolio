@@ -45,13 +45,13 @@
                 <a href="#contact">Contact</a>
             </li>
             <li>
-                <a href="http://git.nathanf.tk/" target="_blank" class='no-scroll'><i class="fa fa-github" aria-hidden="true" style='font-size: 1.2em'></i></a>
+                <a href="http://git.nathanf.tk/" target="_blank" class='no-scroll' alt="GitHub"><i class="fa fa-github" aria-hidden="true" style='font-size: 1.2em'></i></a>
             </li>
             <li>
-                <a href="http://www.linkedin.com/in/nathan-fiscaletti/" target="_blank" class='no-scroll'><i class="fa fa-linkedin-square" aria-hidden="true" style='font-size: 1.2em'></i></a>
+                <a href="http://www.linkedin.com/in/nathan-fiscaletti/" target="_blank" class='no-scroll' alt="LinkedIn"><i class="fa fa-linkedin-square" aria-hidden="true" style='font-size: 1.2em'></i></a>
             </li>
             <li>
-                <a href="https://paypal.me/mrfisc" target="_blank" class='no-scroll'><i class="fa fa-paypal" aria-hidden="true" style='font-size: 1.2em'></i></a>
+                <a href="https://paypal.me/mrfisc" target="_blank" class='no-scroll' alt="Donate on PayPal"><i class="fa fa-paypal" aria-hidden="true" style='font-size: 1.2em'></i></a>
             </li>
         </ul>
     </header>
